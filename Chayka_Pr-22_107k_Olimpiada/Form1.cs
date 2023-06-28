@@ -43,8 +43,6 @@ namespace Chayka_Pr_22_107k_Olimpiada
                     if (i == 0)
                     {
                         percentpayment = sum * percent;
-                        mainPayment = payment - percentpayment;
-                        mainPayment = sum - payment * percent;
                         sums = percentpayment + mainPayment;
 
 
