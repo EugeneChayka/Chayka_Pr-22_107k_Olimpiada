@@ -13,14 +13,10 @@ namespace Chayka_Pr_22_107k_Olimpiada
 {
     public partial class Result : Form
     {
-        int sum;
         public Result(string date, string dolg, string Sum, string percentpayment, string ostatok)
         {
             InitializeComponent();
             dataGridView1.Rows.Add(1,date, dolg,Sum, percentpayment, ostatok);
-            
-            
-            
             lblSumPay.Text = Sum;
             lblPercentPay.Text = percentpayment;
             lblCommisPay.Text = percentpayment;
